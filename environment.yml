@@ -1,0 +1,12 @@
+name: textanalyzer
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - streamlit
+  - pandas
+  - transformers
+  - scikit-learn
+  - nltk
+  - sentence-transformers
+  - openpyxl
