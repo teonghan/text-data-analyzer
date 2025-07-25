@@ -1,18 +1,14 @@
 # 📊 Text Analyzer App
 
-A **Streamlit** app for analyzing open-ended textual survey responses using modern NLP techniques including:
-- Sentence embeddings
-- TF-IDF vectorization
-- Cosine similarity
-- Grouping by themes or categories
+A **Streamlit** app for analyzing textual data using modern AI & NLP techniques including:
+- Semantic analysis
+- Named Entity Recognition
+- Zero-shot classification
 
 ## ✨ Features
 
-- 🔍 Analyze similarities between survey responses
 - 📁 Upload your own Excel dataset
-- 📌 Select specific columns to compare
-- 🧠 Automatically computes sentence embeddings
-- 📈 Displays most and least similar response pairs
+- 📌 Select specific columns to analyze
 - 💬 Helps you identify clusters of meaning
 
 ## 🚀 Getting Started
@@ -21,7 +17,7 @@ A **Streamlit** app for analyzing open-ended textual survey responses using mode
 
 1. Clone this repo:
    ```bash
-   git clone https://github.com/yourusername/textanalyzer.git
+   git clone https://github.com/teonghan/text-data-analyzer.git
    cd textanalyzer
    ```
 
@@ -38,41 +34,16 @@ A **Streamlit** app for analyzing open-ended textual survey responses using mode
 
 ### Option 2: Use the Installer
 
-- For **Windows**: double-click `installer_windows.bat`
-- For **macOS**: run `installer.sh` in Terminal
+- For **Windows**: double-click `installer-windows.bat`
+- For **macOS**: run `installer-macos-universal.sh` in Terminal
 
 A desktop shortcut will be created for you (with a custom icon if available).
 
 ## 🧾 Usage Guide
 
 1. Launch the app
-2. Upload an Excel file (`.xlsx`) containing open-text responses
-3. Select the columns to analyze (text column and optional category column)
-4. Choose parameters like:
-   - Similarity method: Sentence Embedding or TF-IDF
-   - Number of top similar/dissimilar pairs
-5. Click **Analyze**
-6. Review similarity tables and explore highlighted pairs
-
-## 🧠 How It Works
-
-- Uses **`sentence-transformers`** to generate high-dimensional embeddings
-- Optionally uses **TF-IDF** vectors for faster, simpler analysis
-- Computes **cosine similarity** between every pair of sentences
-- Optionally segments results by group/category column
-
-## 📂 Folder Structure
-
-```
-textanalyzer/
-├── app.py
-├── environment.yml
-├── installer.sh                  # macOS setup script
-├── installer_windows.bat         # Windows setup script
-├── run_app.sh / run_app.bat      # Launchers
-├── icon.ico / icon.icns          # Optional shortcut icon
-└── README.md
-```
+2. Upload an Excel file (`.xlsx`) containing text data
+3. Choose the function to analyze
 
 ## 📦 Dependencies
 
