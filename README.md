@@ -18,7 +18,7 @@ A **Streamlit** app for analyzing textual data using modern AI & NLP techniques 
 1. Clone this repo:
    ```bash
    git clone https://github.com/teonghan/text-data-analyzer.git
-   cd textanalyzer
+   cd text-data-analyzer
    ```
 
 2. Create the environment:
