@@ -2,8 +2,6 @@
 
 A modern **Streamlit** application to analyze your unstructured text data with powerful NLP and AI models — no coding required.
 
-Try it online 👉 *(Add your deployed link here)*
-
 ---
 
 ## 🔍 Overview
